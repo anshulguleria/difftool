@@ -7,8 +7,8 @@ var fs = require('fs'),
 //these are temp urls
 //ideally they should be delted after comparison or
 //full paths should not be required.
-var lhs_durl = 'diffui/lhs.txt',
-	rhs_durl = 'diffui/rhs.txt';
+var lhs_durl = 'diffoutput/lhs.txt',
+	rhs_durl = 'diffoutput/rhs.txt';
 
 //TODO: find out why this fully qualified paths are not working.
 //this also causes the files to be not running when called from another program
