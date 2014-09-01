@@ -1,7 +1,7 @@
 Diff tool
 ===
 
-This tool uses mergely as its base diff manager and uses `index.html` file present in diffui folder to show the diff between the two provided files.
+This tool uses mergely as its base diff manager and uses `index.html` file present in `diffui` folder to show the diff between the two provided files.
 
 #Run
 
@@ -19,3 +19,6 @@ To test the module use `lhs` and `rhs` files in `test` folder.
 //node command
 node diff.js test/lhs_s.txt test/rhs_s.txt
 ```
+#Output
+
+To see the output run `index.html` file present in `diffui` folder.
